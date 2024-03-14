@@ -1,0 +1,207 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.a{
+    max-width:1000px;
+    margin:0 auto;
+}
+.a>header{
+    background-image: url("bia.jpg");
+    background-size:100% 100%;
+    height:20px;
+    padding-bottom:23%;  
+    background-color: darkorange;
+}
+.a > nav{
+    line-height:40px;
+    background-color:darkorange;
+    color:white;
+    text-align:center; 
+    font-variant:small-caps;
+}
+.a > article{
+    min-height:400px;
+    width:75%;
+    background-color:white;
+    float:left;
+}
+.a > aside{
+    min-height:400px;
+    width:25%;
+    background-color:white;
+    float:right;
+}
+.a > footer{
+    height:50px;
+    background-color:darkorange;
+    clear:both;
+}
+.a > nav > a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+.a > nav > a:hover{
+    color:yellow;
+    text-decoration:underline;
+}
+ifame[name=page]{
+    width:100%;
+    min-height:400px;
+}
+.menu>ul>li{
+  display: inline-block;
+  position: relative;
+}
+.menu>ul>li>a{
+  display: block;
+  padding: 0 10px;
+  line-height: 40px;
+  font-variant: small-caps;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: darkorange;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+  color: white;
+}
+.menu ul ul{
+  position: absolute;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  width: 200px;
+  background-color: gray;
+  box-shadow: 0 0 1px green;
+}
+.menu{
+      text-align: center;
+
+}
+}
+
+
+
+h1 {
+    border-bottom: 1px solid #BBBBBB;
+    color: #5B5463;
+    font-family: Arial;
+    font-size: 3.75em;
+    font-weight: bold;
+    line-height: 1.7em;
+    margin-bottom: 7px;
+    text-align: center;
+    text-shadow: 0 2px #FFFFFF, 1px 3px #666666;
+    text-transform: uppercase;
+}
+ 
+ 
+br { display: block; line-height: 2.2em; }
+
+
+form .row {
+  display: block;
+  padding: 7px 8px;
+  margin-bottom: 7px;
+}
+form .row:hover {
+  background: #f1f7fa;
+}
+ 
+form label {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 120px;
+  padding: 6px 0;
+  color: #464646;
+  vertical-align: top;
+}
+form .red { color: red; }
+ 
+form .note {
+  font-size: 1.2em;
+  line-height: 1.33em;
+  font-weight: normal;
+  padding: 2px 7px;
+  margin-bottom: 10px;
+}
+ 
+form .txt {
+  display: inline-block;
+  padding: 8px 9px;
+  padding-right: 30px;
+  width: 240px;
+  font-size: 1.35em;
+  font-weight: normal;
+  color: #898989;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+  transition: all 0.3s linear;
+}
+ 
+form .txtarea {
+  display: inline-block;
+  padding: 8px 11px;
+  padding-right: 30px;
+  width: 320px;
+  height: 120px;
+  font-size: 1.35em;
+  font-weight: normal;
+  color: #898989;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+}
+
+form .txt:focus, form .txtarea:focus {
+  width: 300px;
+  color: #545454;
+  background-color: #fff;
+  border-color: #059;
+}
+form .txtarea:focus {
+  width: 375px;
+  background-position: 110% 4%;
+}
+ 
+form .txt:valid {
+  background-color: #deecda;
+  background-position: 98% center;
+  background-repeat: no-repeat;
+  color: #7d996e;
+  border: 1px solid #95bc7d;
+}
+form .txtarea:valid {
+  background-color: #deecda;
+  color: #7d996e;
+  border: 1px solid #95bc7d;
+}
+
+#submitbtn {
+  height: 70px;
+  width: 275px;
+  padding: 0;
+  font-size: 2.0em;
+  color: #0a528f;
+}
+#submitbtn:hover, #submitbtn:focus {
+  box-shadow: 0 0 15px rgba(70, 100, 200, 0.9);
+}
+ 
+#submitbtn:active {
+  box-shadow: 0 0 15px rgba(70, 100, 200, 0.9), 0 1px 3px rgba(0,0,0,0.4) inset;
+}
+
+.center{
+    padding-left: 130px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<div class="layout">
+	<header></header>
+	<nav class="menucon">
+		<ul>
+			<li><a href="#">Trang chủ</a></li>
+			<li><a href="#">Giới thiệu</a></li>
+			<li><a href="#">Tuyển sinh</a></li>
+			<li><a href="#">Chương trình đào tạo</a></li>
+			<li><a href="form.html">Góp ý</a></li>
+		</ul>
+	</nav>
+	<article>
+                <div class="box" style="float: left;">
+                	<img src="pv.jpg" style="width: 35%;height: 35%;float: left;padding-bottom: 10px;padding-top: 10px;padding-right: 10px">
+                	<div class="content">
+                		<h3><a href="#">Thử thách phỏng vấn - trải nghiệm thực tế của sinh viên FPoly</a></h3>
+                		<p>Chương trình thực tế kỹ năng phỏng vấn xin việc và viết CV nằm trong môn học Kỹ năng làm việc ...</p>
+                	</div> 
+                <div class="box" style="float: left;">
+                	<img src="ks.jpg" style="width: 35%;height: 35%;float: left;padding-right: 10px">
+                	<div class="content">
+                		<h3><a href="#">Sinh viên FPoly Hà Nội thăm khách sạn 100 tuổi</a></h3>
+                		<p>Nhân dịp kỷ niệm 100 năm thành lập, khách sạn Hilton đã tổ chức chương trình giới thiệu về ngành và tập đoàn ...</p>
+                	</div>
+                </div>
+                  <div class="box" style="float: left;">
+                	<img src="vd.jpg" style="width: 35%;height: 35%;float: left;padding-bottom: 10px;padding-top: 10px; padding-right: 10px">
+                	<div class="content" style="padding-left: 150px">
+                		<h3><a href="#">Vinh danh hơn 600 sinh viên xuất sắc FPoly Hà Nội</a></h3>
+                		<p>Lễ tuyên dương sinh viên tiêu biểu là chương trình thường kỳ được Cao đẳng FPT Polytechnic ...</p>
+                	</div> 
+                <ifame name="page src=home.htm"scrolling="auto" frameborder="0"></ifame>
+	</article>
+	<aside style="color : blue">
+		<ul>
+            <li><h3>TIN TỨC</h3></li>
+            <li><a>Đại nhạc hội tháng 7 mừng sinh nhật Poly</a></li>
+            <li><a>Chung kết Miss Poly 2019</a></li>
+            <li><a>Thông báo danh sách ong vàng được khen thưởng</a></li>
+         <video width="250px" height="300px" controls loop src="launchpad.mp4" ></video>
+        </ul>                
+	</aside>
+	<footer>
+		<div align="center">
+			Điện thoại: (024) 7300 1955 – Email: caodang@fpt.edu.vn<br/>
+Tầng 1, Tòa nhà FPT Polytechnic (nhà H),Hàm Nghi, Mỹ Đình,Nam Từ Liêm, Hà Nội
+
+		</div>
+	</footer>
+	</div>
+</body>
+</html>
